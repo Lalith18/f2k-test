@@ -1,0 +1,37 @@
+.quantity-selector {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border: 0.5px solid gray;
+    height: min-content;
+    width: 15%;
+    align-items: center;
+}
+
+.quantity-button {
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    height: min-content;
+}
+
+.quantity {
+    font-size: 20px;
+    margin: 0;
+    height: min-content;
+}
+
+.quantity-button:hover {
+    color: gray;
+}
+
+@media (max-width: 600px) {
+    .quantity-button {
+        font-size: 18px;
+    }
+
+    .quantity {
+        font-size: 14px;
+    }
+}

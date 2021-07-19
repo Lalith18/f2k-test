@@ -1,0 +1,92 @@
+.payment{
+    color: white;
+    margin: 10px;
+    padding: 20px 40px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(48,61,80), rgb(26,30,42));
+}
+
+.payment-title {
+    margin: 0;
+    text-align: left;
+    width: max-content;
+}
+
+.payment-label {
+    margin: 0;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.payment-input {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.payment-input:focus {
+    outline: none;
+}
+
+.payment-input-small {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-bottom: 1px solid white;
+    width: 60px;
+    margin-top: 10%;
+}
+
+.payment-input-small:focus {
+    outline: none;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.payment-button {
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid white;
+    width: max-content;
+}
+
+.submit-button {
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+    margin: 40px 10px 0;
+    border-radius: 20px;
+}
+
+.payment-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.submit-button:hover {
+    background-color: rgb(0, 102, 255);
+}
+
+@media (max-width: 1000px) {
+    .payment {
+        width: max-content;
+        margin: 0 auto;
+    }
+}

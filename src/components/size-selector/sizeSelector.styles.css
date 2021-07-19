@@ -1,0 +1,41 @@
+.size-selector {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border: 0.5px solid gray;
+    height: min-content;
+    width: 10%;
+    align-items: center;
+}
+
+.size-button {
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    height: min-content;
+}
+
+.size {
+    font-size: 20px;
+    margin: 0;
+    height: min-content;
+}
+
+.size-button:hover {
+    color: gray;
+}
+
+@media (max-width: 600px) {
+    .size-selector {
+        width: 12%;
+    }
+
+    .size-button {
+        font-size: 18px;
+    }
+
+    .size {
+        font-size: 14px;
+    }
+}

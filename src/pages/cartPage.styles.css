@@ -1,0 +1,13 @@
+.cart-page {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 7%;
+}
+
+@media (max-width: 1000px) {
+    .cart-page{
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0 10px;
+    }
+}
