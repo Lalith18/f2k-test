@@ -87,6 +87,6 @@
 @media (max-width: 1000px) {
     .payment {
         width: max-content;
-        margin: 0 auto;
+        margin: 10px auto;
     }
 }
